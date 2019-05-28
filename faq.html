@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>LifeTrip</title>
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <meta content="width=device-width, initial-scale=1" name="viewport">
 </head>
@@ -38,16 +40,165 @@
         <div class="service-container">
             <div class="service-content-background">
                 <img alt="business" src="img/business.2.jpg">
-                <h2 class="service-content-top-header"><span></span> Հ․Տ․Հ: <small> &nbsp;&nbsp; Տեղեկատվություն LifeTrip-ի ծառայությունների մասին</small></h2>
+                <h2 class="service-content-top-header"><span></span> Հ․Տ․Հ:
+                    <small> &nbsp;&nbsp; Տեղեկատվություն LifeTrip-ի ծառայությունների մասին</small>
+                </h2>
             </div>
         </div>
         <div class="sec-1">
             <div class="background white-bg"></div>
             <div class="service-content">
                 <div class="column">
-                    <ul class="faq">
-                        <li></li>
-                    </ul>
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button aria-controls="collapseOne" aria-expanded="true" class="btn btn-link" data-target="#collapseOne" data-toggle="collapse">
+                                        Ի՞նչ է բազմամակարդակ մարքեթինգը:
+                                    </button>
+                                </h5>
+                            </div>
+                            
+                            <div aria-labelledby="headingOne" class="collapse show" data-parent="#accordion" id="collapseOne">
+                                <div class="card-body">
+                                    Բազմամակարդակ մարքեթինգը ( ԲՄ) կամ այլ կերպ ասած Ցանցային մարքեթինգը(ՑՄ), դա ապրանքի վաճառքի ներկայացման բազմազան ծրագրերն են: Ծրագրի նկարագրությունը կայանում է
+                                    նրանում, թե ինչպես է ընկերությունը ներկայացնում իր արտադրանքը սպառողին կամ հաճախորդին: Բազմամակարդակ մարքեթինգի նպատակը, ո´չ միայն ապրանքը ներկայացնելն է սպառողին,
+                                    ա´յլ նաև ապահովել եկամտի աղբյուրներ իրենց հաճախորդների համար:
+                                    <br>
+                                    Այսպիսով` բազմամակարդակ մարքեթինգը կամ Ցանցային մարքեթինգը հակասական մարքեթինգային ստրատեգիաներ են, որտեղ շահույթը տեսականորեն ստացվում է տարբեր եկամուտների
+                                    հոսքերից:
+                                    <br>
+                                    1. Անմիջական վաճառողից դեպի հաճախորդները (Ուղիղ վաճառքի ծրագիր):
+                                    2. Շահույթ, որը հիմնված է ստորև հաճախորդների վաճառքների վրա, ինչպես նաև մեզ ծանոթ հաճախորդների ներկայացված բինարի ծրագիր:
+                                    <br>
+                                    LifeTrip-ը ներկայումս օգտվում է ` Ուղիղ վաճառքի ծրագրից և Բինարի ծրագրից (որը համարվում է մի պարզ տեսակ ներքևի ներկայացուցիչների համար):
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button aria-controls="collapseTwo" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseTwo" data-toggle="collapse">
+                                        Ի՞նչ է ուղիղ վաճառքը:
+                                    </button>
+                                </h5>
+                            </div>
+                            <div aria-labelledby="headingTwo" class="collapse" data-parent="#accordion" id="collapseTwo">
+                                <div class="card-body">
+                                    Ուղիղ վաճառքը դա ապրանքի անմիջական վաճառքն է հաճախորդին անկախ տարածքային հեռավորությունից: Ժամանակակից Ուղիղ Վաճառքը ներառում է վաճառքի մեկ առ
+                                    մեկ ներկայացումը և հիմնված է անձնական կապերի պայմանավորվածության վրա:
+                                    <br>
+                                    Ուղիղ վաճառքը կարող է օգտագործել որպես միավորում բազմամակարդակ մարքեթինգում (Վաճառողը վարձատրվում է իր վաճառքի հիման վրա և իրենց հովանու ներքո գտնվող մարդկանց
+                                    վաճառքի հիման վրա):
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button aria-controls="collapseThree" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseThree" data-toggle="collapse">
+                                        Ի՞նչ արժե յուրաքանչյուր ապրանք LifeTrip-ում ուղիղ վաճառքի ժամանակ:
+                                    </button>
+                                </h5>
+                            </div>
+                            <div aria-labelledby="headingThree" class="collapse" data-parent="#accordion" id="collapseThree">
+                                <div class="card-body">Այն տատանվում է 20-1000$-ին համարժեք Էլեկտրոնային դրամապանակի (e-wallet) միջակայքում կախված փաթեթի արժեքից:</div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h5 class="mb-0">
+                                    <button aria-controls="collapseFour" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseFour" data-toggle="collapse">
+                                        Ի՞նչ է Ձայնային Միավոր (Volume Point)
+                                    </button>
+                                </h5>
+                            </div>
+                            <div aria-labelledby="headingFour" class="collapse" data-parent="#accordion" id="collapseFour">
+                                <div class="card-body">VP-ին դա ձայնաին միավոր է: Յուրաքանյուր փաթեթ LifeTrip-ին կցված է որոշակի ձայնային միավորով(VP):</div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                                <h5 class="mb-0">
+                                    <button aria-controls="collapseFive" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseFive" data-toggle="collapse">
+                                        Ի՞նչ է էլեկտրոնային դրամապանակը (E-wallet):
+                                    </button>
+                                </h5>
+                            </div>
+                            <div aria-labelledby="headingFive" class="collapse" data-parent="#accordion" id="collapseFive">
+                                <div class="card-body">էլեկտրոնային դրամապանակը դա LifeTrip-ի վճարման միջոցներից մեկն է: Դա նույն միավոր քարտն է, սակայն, ի տարբերություն քարտի, էլեկտրոնային
+                                    դրամապանակը կարող է վաճառվել այն դեպքում, եթե դուք չեք ցանկանում օգտագործել այն ինքներդ: էլեկտրոնային դրամապանակը համարժեք է ամերիկյան դոլարին (նրանով վճարումներ
+                                    կարող է արվել մի քանի երկրներում):
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingSix">
+                                <h5 class="mb-0">
+                                    <button aria-controls="collapseSix" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseSix" data-toggle="collapse">
+                                        Ի՞նչպես LifeTrip-ը կիմանա, որ ես նոր անդամներ եմ ընդգրկում:
+                                    </button>
+                                </h5>
+                            </div>
+                            <div aria-labelledby="headingSix" class="collapse" data-parent="#accordion" id="collapseSix">
+                                <div class="card-body">
+                                    Գրանցվելիս կդառնաս LifeTrip-ի անկախ բիզնես սեփականատեր (IBO)՝ և դու կստանաս քո փաստացի նույնականացման կոդը (VID): Յուրաքանչյուր անձ, ով ցանկանում
+                                    է օգտվել LifeTrip-ի հյուրանոցային փաթեթներից, պետք է մուտքագրի փաստացի նույնականացման կոդը կայք էջի գրանցման առաջին էջում: Ո´չ ոք չի կարող գրանցվել առցանց
+                                    ինքնուրույն, առանց ինչ-որ մեկի օգնության:
+                                    <br>
+                                    Այսպիսով, եթե դուք տեղեկացնում եք մեկին, նրանք կարող են ստանալ մուտքի հնարավորություն միայն ձեր իսկ փաստացի նույնականացման կոդով: Ձեզ կփոխանցվի ուղիղ վաճառքի
+                                    միավոր-գումարը յուրաքանչյուր գնումից, որը կկատարվի ձեր փաստացի նույնականացման կոդի՝ VID-ի, միջոցով:
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingSeven">
+                                <h5 class="mb-0">
+                                    <button aria-controls="collapseSeven" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseSeven" data-toggle="collapse">
+                                        Ո՞րն է կազմակերպության նպատակը:
+                                    </button>
+                                </h5>
+                            </div>
+                            <div aria-labelledby="headingSeven" class="collapse" data-parent="#accordion" id="collapseSeven">
+                                <div class="card-body">
+                                    Ընկերության ամբողջական ծրագրի տեսակը Բինարի Ծրագիրն է: Բինարի ծրագիրը բազմա-առևտրային ծրագիր է, որը թույլ է տալիս անկախ բիզնես սեփականատերերին (IBO-ներին) ունենալ
+                                    իրենց երկու ճակատային ներկայացուցիչները: Եթե մի ներկայացուցիչ հովանավորում է ավելի քան երկու հոգու, լրացուցիչները տեղադրվում են ճակատային գծից ցածր մակարդակներով:
+                                    Այս համակարգը կարող է ոգևորել տարբեր անհատների համագործակցությունը, քանի որ նրանք կարող են փոխադարձաբար օգտվել լրացուցիչ վաճառքից:
+                                    <br>
+                                    Հիմնական սահմանափակումը, այնուամենայնիվ, այն է, որ ներկայացուցիչները պետք է պահպանեն իրենց հավասարակշռությունը, իրենց երկկողմանի պարգևներ ստանալու ընթացքում:
+                                    Ճյուղերի հավասարակշռությունը անհրաժեշտ է, որպեսզի յուրաքնաչյուր ստորև վաճառք լինի նույն քանակությամբ (ավելի վաղ կանդրադառնանք այս փաստին):
+                                    <br>
+                                    Ընդհանուր առմամբ, Բինարի ծրագիրը` Առևտրի ծրագիր է, որն օգտագործվում է տարբեր բազմամակարդակ մարքեթինգային կազմակերպություններում: Կառուցվածքային առումով, նոր
+                                    հաճախորդներին ներկայացվում է Binary Tree(Բինարի Ծառ), որտեղից ձեռք բերելով ցանկացած ապրանք, կազմակերպության ցանկացած հանգույցից, յուրաքանչյուր հաճախորդ պետք է
+                                    ունենա ձախ ու աջ կողմ կամ ճյուղ:
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingEight">
+                                <h5 class="mb-0">
+                                    <button aria-controls="collapseEight" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseEight" data-toggle="collapse">
+                                        Ի՞նչպես է աշխատում Բինարի ծրագիրը:
+                                    </button>
+                                </h5>
+                            </div>
+                            <div aria-labelledby="headingEight" class="collapse" data-parent="#accordion" id="collapseEight">
+                                <div class="card-body">
+                                    Բինարի ծրագիրը թույլ է տալիս ցանկացած Անկախ Բիզնեսի սեփականատիրոջ (IBO-ի) ունենալու երկու ճակատային դիստրիբյուտորներ: IBO-ները պետք է, հավասարակշռորեն բաշխեն իրենց
+                                    կուտակված միավորները երկկողմանի ճյուղերի մեջ: Յուրաքանչյուր ստորին վաճառքի ճյուղերի քանակ, պետք է լինի հավասար (այս փաստին կանդրադառնանք ավելի ուշ):
+                                    <br>
+                                    LifeTrip-ում, ապրանք ձեռք բերելով, նոր սպառողներ են ներդրվում Բինարի կառույցի մեջ, որտեղ կազմակերպության յուրաքանչյուր հաճախորդ ունենում է 3 տեղաբաշխումներ, որոնք
+                                    անվանում են` A,B,C օֆիսներ:
+                                    <br>
+                                    Գագաթում գտնվում է A օֆիսը, ձախ կողմում B և աջ կողմում C օֆիսները: Յուրաքանչյուր տեղաբաշխում ունի իր աջ և ձախ կողմերը: Ինչևիցե, եթե մի հաճախորդ գնեց մի փաթեթ՝ դա
+                                    նշանակում է 1VP, մեկ միավորը ավտոմատ փոխանցվում է A օֆիսին, իսկ մնացյալ միավորները աջ կամ ձախ կողմերում՝ կախված օգտատիրոջ ցանկությունից:
+                                    <br>
+                                    Այնուամենայնիվ, եթե հաճախորդը ձեռք է բերում 1VP ապրանք, ապա այն կտեղադրվի ավտոմատ A oֆիսում, իսկ մյուս երկու օֆիսները չեն ակտիվանալու, իսկ IBO-ին կվճարվի A օֆիսի
+                                    համար:
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -61,7 +212,7 @@
                 <p class="color-white">Հեռ: + (374) 12 244-400</p>
             </div>
             <div>
-                <p class="color-white">Հասցե: 	ԱՀ ք․ Ստեփանակերտ փ․ Առաքելյան 14բ </p>
+                <p class="color-white">Հասցե: ԱՀ ք․ Ստեփանակերտ փ․ Առաքելյան 14բ </p>
                 <p class="color-white">Հեռ: + (374) 97 304-400</p>
             </div>
         </div>
@@ -75,6 +226,8 @@
 </section>
 
 <script src="js/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
