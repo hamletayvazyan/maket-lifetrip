@@ -1,15 +1,53 @@
-.zoom-bg{
-    position: absolute;
+.zoom-bg {
+    position: relative;
     top: 0;
-    transition: left 3s, right 3s, top 3s, bottom 3s, transform 3s;
+    transition: width .3s, height .3s, border-radius .3s, transform 3s ease, left 3s, right 3s, top 3s, bottom 3s;
     object-fit: cover;
     transform: scale(1.08);
     width: 100%;
     height: 100%;
 }
+
 .index-sec{
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.active {
-    display: block;
+.index-sec img {
+    width: 0;
+    height: 0;
+}
+
+/*.active {*/
+/*display: block;*/
+/*}*/
+/*.index-sec img.lance {*/
+    /*width: 7%;*/
+    /*height: auto;*/
+    /*left: 46%;*/
+    /*border-radius: 0;*/
+    /*top: 51.5%;*/
+/*}*/
+
+.index-sec.active img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    position: absolute;
+}
+
+.section1-context {
+    position: relative;
+}
+
+.section1-context h2 {
+    position: absolute;
+    top: 18rem;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+.p-absolute{
+    position: absolute;
 }

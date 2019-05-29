@@ -16,7 +16,7 @@ $(document).ready(function () {
         else{
             if(e.target.id == 'image1'){
                 img.css({'transform':'scale(5)'});
-                setTimeout(toNextSection,1000);
+                setTimeout(toNextSection,500);
             }
         }
     });
@@ -28,18 +28,28 @@ $(document).ready(function () {
         $('#sec2').removeClass('active');
         $('#sec1').addClass('active');
     }
+    function rmclass(){
+        $('#sec1 > img').removeClass('lance');
+    }
+    function rmclass(){
+        $('#sec1 > img').removeClass('lance');
+    }
     main.mousemove(function (e) {
         if(xPrev<e.pageX) {
-            img.css({'right':'30px'})
+            img.css({'right':'30px'});
+            // img2.css({'right':'30px'});
         }
         else {
-            img.css({'right':'5px'})
+            img.css({'right':'5px'});
+            // img2.css({'right':'5px'});
         }
         if(yPrev>e.pageY) {
-            img.css({'top':'25px'})
+            img.css({'top':'25px'});
+            // img2.css({'top':'25px'});
         }
         else {
-            img.css({'top':'5px'})
+            img.css({'top':'5px'});
+            // img2.css({'top':'5px'});
         }
         // xPrev<e.pageX ? setTimeout(img.css({'right':'30px'}),500) : setTimeout(img.css({'right':'3px'}),500);
         // yPrev<e.pageY ? setTimeout(img.css({'top':'5px'}),500) : setTimeout(img.css({'top':'25px'}),500);

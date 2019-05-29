@@ -108,6 +108,9 @@ header {
     border-bottom: 1px solid #ebebeb;
     transition: opacity .8s cubic-bezier(.165, .84, .44, 1) 0s;
 }
+header.dark-theme{
+    border-color: rgba(235,235,235,.2);
+}
 
 header.light-theme {
     background-color: #fff;
@@ -180,6 +183,10 @@ header ul li.active:after {
 
 .dark-theme .header-register button, .dark-theme .header-live-contact button {
     color: #fff;
+}
+.dark-theme .header-register, .dark-theme .header-live-contact {
+    color: #fff;
+    border-color: rgba(235,235,235,.2);
 }
 
 .light-theme .header-register button, .light-theme .header-live-contact button {
