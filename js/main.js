@@ -4,7 +4,7 @@ $(document).ready(function () {
         xPrev,yPrev,
         offset = img.offset(),
         sec1 = $('#sec1'),sec2 = $('#sec2'),sec3 = $('#sec3'),sec4 = $('#sec4');
-    main.bind('mousewheel', function(e){
+   /* main.bind('mousewheel', function(e){
         e.stopPropagation();
         e.preventDefault();
         if(e.originalEvent.wheelDelta /120 > 0) {
@@ -15,20 +15,20 @@ $(document).ready(function () {
         }
         else{
             if(e.target.id == 'image1'){
-                img.css({'transform':'scale(5)'});
-                setTimeout(toNextSection,500);
+                img.css({'transform':'scale(8)'});
+                setTimeout(toNextSection,100);
             }
         }
     });
     function toNextSection(){
-        $('#sec1').removeClass('active');
-        $('#sec2').addClass('active');
+        sec2.addClass('active');
+        sec1.addClass('blured');
     }
     function toPrevSection(){
-        $('#sec2').removeClass('active');
-        $('#sec1').addClass('active');
+        $('#sec2').removeClass('active').addClass('hide');
+        $('#sec1').removeClass('hide').addClass('active');
     }
-    function rmclass(){
+    function rmClass(){
         $('#sec1 > img').removeClass('lance');
     }
     function rmclass(){
@@ -56,6 +56,8 @@ $(document).ready(function () {
         xPrev=e.pageX;
         yPrev=e.pageY;
     });
+*/
+
 
 
 });

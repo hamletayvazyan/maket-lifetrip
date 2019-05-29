@@ -167,7 +167,29 @@ header ul li.active:after {
     background-color: #f95a25;
     left: 50%;
 }
+.login-icon{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+    background-color: #f1f1f1;
+    border-radius: 35px;
+}
+.mard{
+    display: block;
+    width: 17px;
+    height: 34px;
+    /* background: gray; */
+    border-radius: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.mard svg {
+    fill:rgb(155, 155, 155);
 
+}
 .header-register, .header-live-contact {
     min-width: 240px;
     height: 50px;
@@ -180,7 +202,10 @@ header ul li.active:after {
     align-items: center;
     justify-content: center;
 }
-
+.logo a {
+    font-size: 32px;
+    font-weight: bold;
+}
 .dark-theme .header-register button, .dark-theme .header-live-contact button {
     color: #fff;
 }
@@ -188,8 +213,19 @@ header ul li.active:after {
     color: #fff;
     border-color: rgba(235,235,235,.2);
 }
+.header-live-contact button{
+    padding: 18px 60px;
+    font-family: "Okomito-Bold";
+    font-size: .875rem;
+    border-radius: 27px;
+    transition: background-color .8s cubic-bezier(.165,.84,.44,1) 0s,color .8s cubic-bezier(.165,.84,.44,1) 0s;
+    transform: translate(0,50%);
+    background-color: #f95a25;
+    color: #fff;
+    font-weight: bold;
+}
 
-.light-theme .header-register button, .light-theme .header-live-contact button {
+.light-theme .header-register button {
     color: #000;
 }
 
